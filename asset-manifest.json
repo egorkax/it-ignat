@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/it-ignat/static/css/main.62cf1678.css",
+    "main.js": "/it-ignat/static/js/main.b88a3850.js",
+    "index.html": "/it-ignat/index.html",
+    "main.62cf1678.css.map": "/it-ignat/static/css/main.62cf1678.css.map",
+    "main.b88a3850.js.map": "/it-ignat/static/js/main.b88a3850.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62cf1678.css",
+    "static/js/main.b88a3850.js"
+  ]
+}
