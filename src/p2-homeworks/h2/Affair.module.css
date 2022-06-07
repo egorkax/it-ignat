@@ -1,0 +1,36 @@
+.blockAffair{
+    display: flex;
+}
+
+.name {
+    font-size: 18px;
+    color: palevioletred;
+    margin: 10px;
+    font-weight: bold;
+    width: 100px;
+
+
+}
+
+.low {
+
+    color: chartreuse;
+
+}
+
+.middle {
+    color: orange;
+
+}
+
+.high {
+    color: red;
+
+}
+.remBut{
+    height: 25px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: black;
+
+}

@@ -1,0 +1,43 @@
+.blockWindow {
+    display: flex;
+    background-color: chartreuse;
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.avatar {
+    padding-top: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.blockMessage {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: olivedrab;
+    width: 220px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.name {
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.message {
+    justify-content: start;
+    font-style: italic;
+    color: white;
+    word-wrap: break-word;
+}
+
+.time {
+    opacity: 0.4;
+    display: flex;
+    justify-content: end;
+}

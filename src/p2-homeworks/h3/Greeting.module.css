@@ -1,0 +1,71 @@
+
+.block {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    width: 500px;
+    height: 100px;
+    border: 7px black solid;
+    border-radius: 90px;
+    margin-left: 100px;
+
+}
+
+
+.errorInput {
+    border: 2px solid red;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.textError {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.input {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+
+}
+
+.button {
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 18px;
+    color: palevioletred;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.buttonDis{
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 18px;
+    color: palevioletred;
+    margin-left: 25px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+
+.users {
+    margin-left: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+
+}

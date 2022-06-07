@@ -1,0 +1,16 @@
+.block {
+    border: 7px solid black;
+    margin-left: 100px;
+    width: 400px;
+}
+
+.button{
+    margin: 10px;
+    width: 60px;
+    color: palevioletred;
+    font-size: 15px;
+}
+.active{
+    background-color: cadetblue;
+    color: white;
+}
