@@ -20,7 +20,7 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div>
+        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}}>
             <hr/>
             homeworks 4
 

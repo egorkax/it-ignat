@@ -1,0 +1,22 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 100px;
+}
+.name{
+    font-size: 20px;
+    color: palevioletred;
+    margin: 5px;
+    font-weight: bold;
+
+}
+.age{
+    color: orange;
+    font-size: 20px;
+
+}
+.blockButton{
+    margin-left: 80px;
+
+}

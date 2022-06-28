@@ -18,7 +18,7 @@ const messageData = {
 
 function HW1() {
     return (
-        <div>
+        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}}>
             <hr/>
             homeworks 1
 

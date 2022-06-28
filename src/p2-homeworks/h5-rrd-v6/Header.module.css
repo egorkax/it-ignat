@@ -1,0 +1,28 @@
+.link{
+text-decoration: none;
+    color: palevioletred;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.block{
+    width: 30px;
+    height: 30px;
+
+    margin: 10px;
+    background-color: chartreuse;
+}
+
+.header{
+    display: flex;
+
+    width: 300px;
+    transition-duration: 500ms;
+    transform: translate(-260px);
+}
+.header:hover{
+    transition-duration: 500ms;
+    transform: translate(0);
+
+}
