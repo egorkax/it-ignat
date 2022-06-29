@@ -39,7 +39,7 @@ function HW8() {
     return (
         <div>
             <hr/>
-            homeworks 8
+            <span style={{color:"orange",fontSize:"22px",fontWeight:"initial"}} > homeworks 8 </span>
 
             {/*should work (должно работать)*/}
             {finalPeople}

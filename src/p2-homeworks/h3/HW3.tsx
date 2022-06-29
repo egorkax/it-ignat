@@ -13,17 +13,17 @@ function HW3() {
     const [users, setUsers] = useState<Array<UserType>>([])
 
     const addUserCallback = (newName: string) => {
-        let newUser={
-            _id:v1(),
-            name:newName,
+        let newUser = {
+            _id: v1(),
+            name: newName,
         }
-        setUsers([newUser,...users])
+        setUsers([newUser, ...users])
     }
 
     return (
-        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}} >
+        <div>
             <hr/>
-            homeworks 3
+            <span style={{color: "orange", fontSize: "22px", fontWeight: "initial"}}> homeworks 3 </span>
 
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>

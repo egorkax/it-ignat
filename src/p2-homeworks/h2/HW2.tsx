@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
 
-export type AffairPriorityType = 'low'| 'middle' | 'high'
+export type AffairPriorityType = 'low' | 'middle' | 'high'
 export type AffairType = {
-    _id:number
-    name:string
-    priority:FilterType
+    _id: number
+    name: string
+    priority: FilterType
 
 }
 export type FilterType = 'all' | AffairPriorityType
@@ -19,16 +19,16 @@ const defaultAffairs: AffairType[] = [
 ]
 
 // pure helper functions
-export const filterAffairs = (affairs: AffairType[], filter: FilterType):AffairType[] => {
+export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => {
     if (filter === 'all') return affairs
-        else return affairs.filter(e=>e.priority===filter)
+    else return affairs.filter(e => e.priority === filter)
     // else if(filter==='low')affairs.filter(e=>e.priority===filter);
     // else if(filter==='middle')affairs.filter(e=>e.priority===filter);
     // else if(filter==='high')affairs.filter(e=>e.priority===filter);
 
 }
 export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => {
-    return affairs.filter(e=>e._id!=_id)
+    return affairs.filter(e => e._id != _id)
 }
 
 function HW2() {
@@ -39,9 +39,9 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
 
     return (
-        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}}>
+        <div>
             <hr/>
-            homeworks 2
+            <span style={{color: "orange", fontSize: "22px", fontWeight: "initial"}}> homeworks 2 </span>
 
             {/*should work (должно работать)*/}
             <Affairs

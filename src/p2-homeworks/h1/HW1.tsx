@@ -18,11 +18,10 @@ const messageData = {
 
 function HW1() {
     return (
-        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}}>
+        <div>
             <hr/>
-            homeworks 1
+            <span style={{color:"orange",fontSize:"22px",fontWeight:"initial"}} > homeworks 1 </span>
 
-            should work (должно работать)
 
             <Message
                 avatar={messageData.avatar}

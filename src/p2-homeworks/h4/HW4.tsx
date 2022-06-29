@@ -20,9 +20,9 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div style={{color:"orange",fontSize:"22px",fontWeight:"initial"}}>
+        <div>
             <hr/>
-            homeworks 4
+            <span style={{color:"orange",fontSize:"22px",fontWeight:"initial"}} > homeworks 4 </span>
 
             <div className={s.column}>
                 <SuperInputText
